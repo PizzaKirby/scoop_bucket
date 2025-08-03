@@ -1,12 +1,12 @@
 {
-    "version": "0.0.0",
+    "version": "2.0.1.6",
     "homepage": "https://github.com/PixiEditor/PixiEditor",
     "license": "LGPL-3.0",
     "description": "The only 2D Graphics Editor you'll ever need",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/usebruno/bruno/releases/download/v2.8.1/bruno_2.8.1_x64_win.zip",
-            "hash": "1d6101a7ebd8a424d213ad05498e4271c1d0e18930c6f074640fd47e0baa0e46"
+            "url": "https://github.com/PixiEditor/PixiEditor/releases/download/2.0.1.6/PixiEditor.2.0.1.6.x64-win.zip",
+            "hash": "1860fe582bf0d9d88b0a5e3441f12a98950c9a19c86556ad09506a81a63cb777"
         }
     },
     "shortcuts": [
