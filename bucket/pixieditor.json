@@ -6,10 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/PixiEditor/PixiEditor/releases/download/2.0.1.6/PixiEditor.2.0.1.6.x64-win.zip",
-            "hash": "1860fe582bf0d9d88b0a5e3441f12a98950c9a19c86556ad09506a81a63cb777",
-            "extract_dir": "PixiEditor-2.0.1.6-windows-x64"
+            "hash": "1860fe582bf0d9d88b0a5e3441f12a98950c9a19c86556ad09506a81a63cb777"
         }
     },
+    "extract_to": [
+        "",
+        "PixiEditor"
+    ],
     "shortcuts": [
         [
             "PixiEditor.exe",
@@ -23,7 +26,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/PixiEditor/PixiEditor/releases/download/$version/PixiEditor.$version.x64-win.zip",
-                "extract_dir": "PixiEditor-$version-windows-x64"
             }
         }
     }
