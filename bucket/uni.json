@@ -11,10 +11,8 @@
     },
     "extract_to": "",
     "shortcuts": [
-        [
-            "uni-v$version-windows-amd64.exe",
-            "uni"
-        ]
+        "uni-v2.8.0-windows-amd64.exe",
+        "uni"
     ],
     "checkver": {
         "github": "https://github.com/arp242/uni"
@@ -24,6 +22,10 @@
             "64bit": {
                 "url": "https://github.com/arp242/uni/releases/download/v$version/uni-v$version-windows-amd64.exe.gz"
             }
-        }
+        },
+        "shortcuts": [
+            "uni-v$version-windows-amd64.exe",
+            "uni"
+        ]
     }
 }
