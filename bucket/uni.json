@@ -12,7 +12,8 @@
     "extract_to": "",
     "bin": [
         [
-            "uni-v2.8.0-windows-amd64.exe"
+            "uni-v2.8.0-windows-amd64.exe",
+            "uni"
         ]
     ],
     "shortcuts": [
