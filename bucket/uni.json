@@ -10,10 +10,14 @@
         }
     },
     "extract_to": "",
-    "bin": "uni-v2.8.0-windows-amd64.exe",
+    "bin": [
+        "uni-v2.8.0-windows-amd64.exe"
+    ],
     "shortcuts": [
-        "uni-v2.8.0-windows-amd64.exe",
-        "uni"
+        [
+            "uni-v2.8.0-windows-amd64.exe",
+            "uni"
+        ]
     ],
     "checkver": {
         "github": "https://github.com/arp242/uni"
@@ -28,6 +32,11 @@
             "uni-v$version-windows-amd64.exe",
             "uni"
         ],
-        "bin": "uni-v$version-windows-amd64.exe"
+        "bin": [
+            [
+            "uni-v$version-windows-amd64.exe",
+            "uni"
+            ]
+        ]
     }
 }
