@@ -11,16 +11,10 @@
         }
     },
     "bin": "FreeCAD-portable\\bin\\FreeCADCmd.exe",
-    "shortcuts": [
-        [
-            "FreeCAD-portable\\bin\\FreeCAD.exe",
-            "FreeCAD"
-        ]
-    ],
+    "shortcuts": [["FreeCAD-portable\\bin\\FreeCAD.exe", "FreeCAD"]],
     "checkver": {
         "url": "https://api.github.com/repos/FreeCAD/FreeCAD/releases",
-        "regex": "FreeCAD_([\\d.]+)-Windows-x86_64\\.7z",
-        "replace": "${1}"
+        "jsonpath": "$.[0].tag_name"
     },
     "autoupdate": {
         "architecture": {
