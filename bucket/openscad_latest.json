@@ -11,7 +11,7 @@
     },
 	"bin": [
         [
-            "OpenSCAD-2026.08.29-x86-64/openscad.exe",
+            "2026.08.29/OpenSCAD-$version-x86-64/openscad.exe",
             "OpenSCAD"
         ]
     ],
@@ -39,8 +39,7 @@
         "hash": {
             "url": "$url.sha256"
         },
-        "extract_dir": "openscad-$version"
-		,"bin": [
+		"bin": [
         [
             "OpenSCAD-$version-x86-64/openscad.exe",
             "OpenSCAD"
