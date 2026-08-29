@@ -9,22 +9,11 @@
             "hash": "9378d35cfe0123b8bfb9bf98d895f6af3d17fd4aad19c649caae640e65a2c0a3"
         }
     },
-	"bin": [
+	"shortcuts": [
         [
             "2026.08.29/OpenSCAD-2026.08.29-x86-64/openscad.exe",
             "OpenSCAD"
         ]
-    ],
-    "post_install": [
-        "# OpenSCAD can't be started from a symlinked directory. See: https://github.com/openscad/openscad/issues/1309",
-        "startmenu_shortcut \"$original_dir\\openscad.exe\" 'OpenSCAD' $null $null $global",
-        "shim \"$original_dir\\openscad.com\" $global 'openscad'"
-    ],
-    "post_uninstall": [
-        "# Remove shortcut and shim",
-        "rm_shim 'openscad' \"$(shimdir $global)\"",
-        "Write-Host \"Removing shortcut $(friendly_path \"$(shortcut_folder $global)\\OpenSCAD.lnk\")\"",
-        "Remove-Item \"$(shortcut_folder $global)\\OpenSCAD.lnk\" -Force -ErrorAction SilentlyContinue"
     ],
     "checkver": {
         "url": "https://files.openscad.org/snapshots/.snapshots.js",
@@ -39,7 +28,7 @@
         "hash": {
             "url": "$url.sha256"
         },
-		"bin": [
+		"shortcuts": [
         [
             "$version-x86-64/OpenSCAD-$version-x86-64/openscad.exe",
             "OpenSCAD"
