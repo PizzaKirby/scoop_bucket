@@ -11,7 +11,7 @@
     },
 	"shortcuts": [
         [
-            "2026.08.29/OpenSCAD-2026.08.29-x86-64/openscad.exe",
+            "OpenSCAD-2026.08.29-x86-64/openscad.exe",
             "OpenSCAD"
         ]
     ],
@@ -30,7 +30,7 @@
         },
 		"shortcuts": [
         [
-            "$version-x86-64/OpenSCAD-$version-x86-64/openscad.exe",
+            "OpenSCAD-$version-x86-64/openscad.exe",
             "OpenSCAD"
         ]
     ]
