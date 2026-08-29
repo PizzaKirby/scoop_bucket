@@ -11,7 +11,7 @@
     },
 	"bin": [
         [
-            "2026.08.29/OpenSCAD-$version-x86-64/openscad.exe",
+            "2026.08.29/OpenSCAD-2026.08.29-64/openscad.exe",
             "OpenSCAD"
         ]
     ],
@@ -41,7 +41,7 @@
         },
 		"bin": [
         [
-            "OpenSCAD-$version-x86-64/openscad.exe",
+            "$version-x86-64/OpenSCAD-$version-x86-64/openscad.exe",
             "OpenSCAD"
         ]
     ]
